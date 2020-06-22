@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kornel Osowski - main page</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jura&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="tloBody">
+    <nav class="navNaglowek">
+        <ul>
+            <li class="nav"><a class="aNav" href="index.html">Główna</a></li>
+            <li class="nav"><a class="aNav" href="#ciekawostki">Ciekawostki</a></li>
+            <li class="nav"><a class="aNav" href="#tabelka">Tabela</a></li>
+            <li class="nav"><a class="aNav" href="#stopka">Stopka</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class="naglowek">Long story short </h1>
+    </header>
+
+    <section>
+        <p class="zmienMotyw">Nie podoba Ci się ten motyw? Zmień go!</p>
+        <button class="przycisk">szary</button>
+        <button class="przycisk2">zielony</button>
+        <button class="przycisk3"><a class="reload" href=index.html>resetuj</a></button>
+        <p class="modeV">Aktualny motyw - Jasny</p>
+        <img class="fotohamak" src="images/hamak2.jpg" alt="Zdjęcie autora na hamaku" height=311 width=630>
+    </section>
+    <main>
+        <section>
+            <h2>Najlepsze książki przeczytane w tym roku 📚</h2>
+            <p>Tragedia na przełęczy Diatłowa - Alice Lugen - wyd. Czarne</p>
+            <p>Miasto szczęśliwe - Charles Montgomery - wyd. Wysoki Zamek</p>
+            <p>Ziarno i krew - Dariusz Rosiak - wyd. Czarne</p>
+            <p>Warmia. Wieczny początek - Beata Szady - wyd. Czarne</p>
+        </section>
+        <section>
+            <h2 id="ciekawostki">Ciekawostki ✨</h2>
+            <p>Pochodzę z gór, a obecnie mieszkam nad morzem</p>
+            <p>Ukończyłem kurs speleologiczny i odkrywałem nowe jaskinie w Czarnogórze</p>
+            <p>Mój ulubiony film to <i>Cienka czerwona linia</i> Terrenca Malicka</p>
+        </section>
+        <section class="ulubionyKolor">
+            <h3>Spróbuj odgadnąć mój ulubiony kolor</h3>
+            <p>Wybierz jeden z kolorów:</p>
+            <button class="przyciskKolor przyciskZielony">zielony</button>
+            <button class="przyciskKolor przyciskCzerwony">czerowny</button>
+            <button class="przyciskKolor przyciskPomaranczowy">pomarańczowy</button>
+            <button class="przyciskKolor przyciskBialy">biały</button>
+            <button class="przyciskKolor przyciskNiebieski">niebieski</button>
+            <button class="przyciskKolor przyciskFioletowy">fioletowy</button>
+            <p class="resultColor"></p>
+        </section>
+        <div class="container">
+            <table id="tabelka" class="table">
+                <caption class="caption">Wybrane książki przeczytane w 2019</caption>
+                <thead>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="col">Książka</th>
+                        <th class="tableCell tableHeader" scope="col">Autor</th>
+                        <th class="tableCell tableHeader" scope="col">Wydawnictwo</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr class="tableRow">
+                        <td class="tableCell">Być jak Kopenhaga</td>
+                        <td class="tableCell">Mikael Colville-Andersen</td>
+                        <td class="tableCell" rowspan="2">Wysoki Zamek</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="tableCell">Jak rowery mogą uratować świat</td>
+                        <td class="tableCell">Peter Walker</td>
+
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="tableCell">Kwartet Aleksandryjski - Justyna</td>
+                        <td class="tableCell">Lawrence Durrell</td>
+                        <td class="tableCell">Zysk i S-ka</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="tableCell">Eksperymenty na biednych</td>
+                        <td class="tableCell">Adam Leszczyński</td>
+                        <td class="tableCell">Krytyka Polityczna</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="tableCell">Przebudzenie. Duchowość bez religii</td>
+                        <td class="tableCell">Sam Harris</td>
+                        <td class="tableCell">Galaktyka</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="tableCell">Piąta kolumna</td>
+                        <td class="tableCell">Ernest Hemingway</td>
+                        <td class="tableCell">Muza</td>
+                    </tr>
+
+                    <tr class="tableRow">
+                        <td class="tableCell">Sodoma. Hipokryzja i władza w Watykanie</td>
+                        <td class="tableCell">Frederic Martel</td>
+                        <td class="tableCell">Agora</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer id="stopka"> © Kornel Osowski | 2020 | <a class="aFooter" href="mailto:osa12388@gmail.com"> napisz do
+            mnie</a></footer>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+h1 {
+    color: rgb(14, 3, 112);
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 5px 50px 5px 15px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.przycisk {
+    display: inline-block;
+    border: none;
+    padding: 8px;
+    font-size: 1.2em;
+    background-color: rgba(174, 178, 184, 0.65);
+    font-family: Georgia;
+    text-align: center;
+    
+}
+.przycisk2 {
+    display: inline-block;
+    border: none;
+    padding: 8px;
+    font-size: 1.2em;
+    background-color: rgba(174, 178, 184, 0.65);
+    font-family: Georgia;
+    text-align: center;
+   
+}
+.przycisk3 {
+    display: inline-block;
+    border: none;
+    padding: 8px;
+    font-size: 1.2em;
+    background-color: rgba(174, 178, 184, 0.65);
+    font-family: Georgia;
+    text-align: center;
+   
+}
+
+.kolorPrzycisk {
+    background-color: rgba(250, 250, 250);
+    border: none;
+}
+.kolorPrzycisk2 {
+    background-color: rgba(250, 250, 250);
+    border: none;
+}
+
+.tloBody {
+    background-color: mediumturquoise;
+}
+.tloBodyCiemne {
+    background-color: lightslategray;
+}
+.tloBodyZielone {
+    background-color: rgb(67, 117, 67);
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}

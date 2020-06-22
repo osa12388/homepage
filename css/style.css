@@ -1,0 +1,257 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: Jura;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #2D3142;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 15px;
+}
+
+h2 {
+    background-color: #4F5D75;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 3px 4px #000000;
+    box-shadow: 6px 7px 9px 0px #BFBEBD;
+}
+
+h3 {
+    background-color: #4F5D75;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 4px #000000;
+    box-shadow: 6px 7px 9px 0px #BFBEBD;
+}
+
+/* NAWIGACJA NAGŁÓWEK */
+
+.navNaglowek {
+    border: black solid 1px;
+    background-color: #2D3142;
+    box-shadow: 6px 7px 9px 0px #BFBEBD;
+}
+
+.nav {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 4px 0;
+    list-style-type: circle;
+    padding: 8px 8px;
+    letter-spacing: 6px;
+}
+
+.aNav {
+    text-decoration: none;
+    color: white;
+    background-color: #2D3142);
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+.aNav:visited {
+    color: white;
+}
+
+.aNav:focus {
+    outline: 2px solid currentColor;
+}
+
+.aNav:hover {
+    color: #EF8354;
+    outline: none;
+    background-color: #2D3142;
+    text-shadow: 5px 3px 4px #000000;
+}
+
+.aNav:active {
+    color: rgb(42, 165, 69);
+}
+
+.fotohamak {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    box-shadow: 17px 20px 38px 9px rgba(0, 0, 0, 0.75);
+}
+
+.reload {
+    text-decoration: none;
+}
+
+.reload:visited {
+    color: black;
+}
+
+.zmienMotyw {
+    display: inline-block;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+/* STYLOWANIE PRZYCISKÓW */
+
+.przycisk {
+    display: inline-block;
+    border: none;
+    padding: 7px;
+    margin: 2px;
+    margin-left: 15px;
+    font-size: 1.1em;
+    background-color: #C5C3C6;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.przycisk2 {
+    display: inline-block;
+    border: none;
+    padding: 7px;
+    margin: 2px;
+    font-size: 1.1em;
+    background-color: #D4E09B;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.przycisk3 {
+    display: inline-block;
+    border: none;
+    padding: 7px;
+    margin: 2px;
+    font-size: 1.1em;
+    background-color: #EF8354;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.kolorPrzycisk {
+    background-color: rgba(250, 250, 250);
+    border: none;
+}
+
+.kolorPrzycisk2 {
+    background-color: rgba(250, 250, 250);
+    border: none;
+}
+
+.przyciskKolor {
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.przyciskKolor:hover {
+    background-color:rgb(194, 194, 194);
+}
+
+/* STYLOWANIE TŁA */
+
+.tloBody {
+    background-color: #FFFFFF;
+}
+
+.tloBodyCiemne {
+    background-color: #DCDCDD;
+}
+
+.tloBodyZielone {
+    background-color: #CBDFBD;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* STYLOWANIE TABELI */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.caption {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    font-size:1.3em;
+}
+
+.tableHeader {
+    background-color: #4F5D75;
+    color: white;
+}
+
+.tableCell {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(194, 194, 194);
+}
+
+.tableRow:hover {
+    background-color: #EF8354;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+/* STYLOWANIE FOOTER */
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: Jura;
+    margin: 30px 0px;
+    padding: 30px 50px;
+    background-color: #2D3142;
+    box-shadow: 6px 7px 9px 0px #BFBEBD;
+}
+
+.aFooter {
+    text-decoration: none;
+    color: white;
+}
+
+.aFooter:focus {
+    outline: 2px solid currentColor;
+}
+
+.aFooter:hover {
+    color: #EF8354;
+    outline: none;
+}
